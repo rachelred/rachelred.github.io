@@ -1,7 +1,10 @@
 /* Kanye West -- Replace with your name/ID and add CSS effects for your card here */
 
 #Arielle2 {
-  background-image: url('Arielle2.png');
+  background-image: url('images/Arielle2.png');
+  background-repeat: no-repeat;
+    background-position: center;
+  background-size: 100% 100%;
 }
 
 
@@ -40,14 +43,15 @@ body {
 #people h2 {
     text-align: center;
     text-transform: lowercase;
-    font-family: 'Latin Modern Roman', Georgia, 'Times New Roman', Times, serif;
     font-variant: small-caps;
     line-height: 1em;
-    font-size: 1.25em;
     margin-bottom: 0.25em;
     width: 100%;
     margin: 0;
     padding: 0;
+    color: #66ffe0;
+    font-size: 110%;
+    font-family: Helvetica;
 }
 .front, .back {
     backface-visibility: hidden;
@@ -69,7 +73,7 @@ body {
 /* front of the cards */
 
 .front.card {
-    background-color: #aaa;
+    background-color: #00b3b3;
     z-index: 2;
     transform: rotateY(0deg);
 }
@@ -87,7 +91,7 @@ body {
 /* back of the cards */
 
 .back.card {
-    background-color: #ccc;
+    background-color: #e6faff;
     transform: rotateY(180deg);
 }
 .back ul {
@@ -109,8 +113,8 @@ body {
     line-height: 0.75em;
 }
 #people .back li a {
-    font-family: 'Inconsolata', monospace;
-    font-size: 0.875em;
+    font-family: 'Helvetica', monospace;
+    font-size: 0.75em;
 }
 /***********************************/
 /* Flipping behavior for the cards */
